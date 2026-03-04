@@ -28,4 +28,4 @@ elif option == 2:
     else:
         print('Min. number = ', n3)
 elif option == 3:
-        print(f' AVG. number = {(n1 + n2 + n3) / 3}')
+        print(f' AVG number = {(n1 + n2 + n3) / 3}')
