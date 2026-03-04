@@ -1,4 +1,6 @@
-n1, n2, n3 = 2, 3, 2
+n1 = int(input('Enter a number 1: '))
+n2 = int(input('Enter a number 2: '))
+n3 = int(input('Enter a number 3: '))
 
 print(n1 > n2)
 print(n1 < n2)
@@ -19,5 +21,19 @@ print(is_valid)
 print(not is_valid) #Это инверсия, когда получается изменить одно значение на другое, работает с true / false.
 
 print('a' in 'hello wold') #так как буквы а - нет, вывод будет False.
+print('\t')
 
-# остановился на условных кончструкицях иф / элс и так далее.
+if n1 <= n3 or n2 == n1:
+    print('OK')
+else:
+    print ('Not ok!')
+
+print('\t')
+
+if n1 > n2:
+    print('a')
+elif n2 < n3:
+    print('b')
+else:
+    print('error')
+
